@@ -1,0 +1,19 @@
+name: ci
+on:
+  push:
+    branches:
+      - master
+      - main
+jobs:
+  build:
+    name: Deploy docs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+
+      - name: Deploy docs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        env:
+          PERSONAL_TOKEN: ${{secrets.PERSONAL_TOKEN}}
+          CONFIG_FILE: document/mkdocs.yml

@@ -1,0 +1,29 @@
+site_name: Vcan Document
+
+copyright: Copyright (c) 2022 Vcan.
+
+docs_dir: "docs"
+
+# navigation
+nav:
+- はじめに: index.md
+
+theme:
+    name: material
+    language: ja
+    favicon: img/logo.png
+    logo: img/logo.png
+    features:
+        - navigation.tabs
+
+# Extensions
+markdown_extensions:
+    # コードハイライトの設定
+    - codehilite:
+        noclasses: true
+        pygments_style: colorful
+        linenums: true
+    # アラートの設定
+    - admonition
+    # スーパーフェンス機能の設定
+    - pymdownx.superfences
