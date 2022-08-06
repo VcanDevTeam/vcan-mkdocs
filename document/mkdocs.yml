@@ -7,14 +7,37 @@ docs_dir: "docs"
 # navigation
 nav:
 - はじめに: index.md
+- お問い合わせフォームについて:
+    使用するメールアドレスへのログイン方法:
+        Web版Gmailの場合: contact/web/gmail.md
+        iOS/iPadOS版Gmailの場合: contact/apple/gmail.md
+        Android版Gmailの場合: contact/android/gmail.md
 
 theme:
     name: material
     language: ja
     favicon: img/logo.png
     logo: img/logo.png
+    palette:
+        - scheme: default
+          toggle:
+            icon: material/weather-sunny
+            name: Switch to dark mode
+          primary: teal
+        - scheme: slate
+          toggle:
+            icon: material/weather-night
+            name: Switch to light mode
+          primary: teal
+
     features:
         - navigation.tabs
+        - navigation.top
+
+repo_name: Vcan-docs
+repo_url: https://github.com/Gardenia-710/Vcan-docs
+
+edit_uri: edit/main/document/docs/
 
 # Extensions
 markdown_extensions:
