@@ -12,6 +12,7 @@ nav:
         Web版Gmailの場合: contact/web/gmail.md
         iOS/iPadOS版Gmailの場合: contact/apple/gmail.md
         Android版Gmailの場合: contact/android/gmail.md
+    問い合わせへの対応方法: contact/reply.md
 
 theme:
     name: material
