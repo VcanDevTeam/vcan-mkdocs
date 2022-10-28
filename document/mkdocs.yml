@@ -13,6 +13,9 @@ nav:
         iOS/iPadOS版Gmailの場合: contact/apple/gmail.md
         Android版Gmailの場合: contact/android/gmail.md
 - 問い合わせへの対応方法: contact/reply.md
+- HPの管理について:
+    記事の執筆について: comingsoon.md
+    記事のレビューについて: HP/review.md
 
 theme:
     name: material
