@@ -34,13 +34,13 @@ jobs:
           pip install mkdocs-material
 
       - name: Build mkdocs website
-        working-directory: document
-        run: mkdocs build --clean
+        working-directory: src
+        run: mkdocs build --clean --site-dir ../public/site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./document/site/
+          path: ./public/site/
 
   deploy:
     needs: build
