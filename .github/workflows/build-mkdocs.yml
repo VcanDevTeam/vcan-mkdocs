@@ -37,15 +37,15 @@ jobs:
         working-directory: document
         run: mkdocs build --clean
 
-      - name: Archive build output
-        run: tar --dereference --hard-dereference --directory document/docs/ -cvf artifact.tar .
+      # - name: Archive build output
+      #   run: tar --dereference --hard-dereference --directory document/docs/ -cvf artifact.tar .
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: github-pages
-          path: ./artifact.tar
-          if-no-files-found: warn
+          path: ./document/site
+          # if-no-files-found: warn
 
   deploy:
     needs: build
