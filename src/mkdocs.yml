@@ -38,8 +38,8 @@ theme:
         - navigation.tabs
         - navigation.top
 
-repo_name: Vcan-docs
-repo_url: https://github.com/Gardenia-710/Vcan-docs
+repo_name: vcan-mkdocs
+repo_url: https://github.com/VcanDevelopmentTeam/vcan-mkdocs
 
 edit_uri: edit/main/document/docs/
 
