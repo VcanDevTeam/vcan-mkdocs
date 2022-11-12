@@ -40,6 +40,7 @@
         |      中高ツアーについて      |  tour@vcan-hpv.org   |
         |      企画・協賛について      | sho-gai@vcan-hpv.org |
         |        その他について        |  info@vcan-hpv.org   |
+        |        イベントについて        |  event@vcan-hpv.org   |
 
 6. 受信サーバーの設定項目を入力し、「次へ」をタップします。
 
@@ -86,6 +87,7 @@
         |recruit@vcan-hpv.org|Vcan-新メンバー担当|
         |tour@vcan-hpv.org|Vcan-中高ツアー担当|
         |sho-gai@vcan-hpv.org|Vcan-渉外対応担当|
+        |event@vcan-hpv.org|Vcan-イベント担当|
         |info@vcan-hpv.org|Vcan-お問い合わせ対応|
 
 9. 完了画面が表示されると、設定は完了です。

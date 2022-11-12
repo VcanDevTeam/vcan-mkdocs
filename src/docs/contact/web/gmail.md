@@ -32,6 +32,7 @@
         |      中高ツアーについて      |  tour@vcan-hpv.org   |
         |      企画・協賛について      | sho-gai@vcan-hpv.org |
         |        その他について        |  info@vcan-hpv.org   |
+        |        イベントについて        |  event@vcan-hpv.org   |
 
 2. 「他のアカウントからメールを読み込む(POP3)」を選択して、「次へ」をクリックします。
 
@@ -79,6 +80,7 @@
         |recruit@vcan-hpv.org|Vcan-新メンバー担当|
         |tour@vcan-hpv.org|Vcan-中高ツアー担当|
         |sho-gai@vcan-hpv.org|Vcan-渉外対応担当|
+        |event@vcan-hpv.org|Vcan-イベント担当|
         |info@vcan-hpv.org|Vcan-お問い合わせ対応|
 
 2. 以下の項目をすべて入力して「アカウントを追加」をクリックします。
